@@ -17,8 +17,8 @@ class _CharactersScreenState extends State<CharactersScreen> {
 
   void initState() {
     super.initState();
-    allCharacters =
-        BlocProvider.of<CharactersCubit>(context).getAllCharacters();
+
+    BlocProvider.of<CharactersCubit>(context).getAllCharacters();
   }
 
   Widget buildBlockWidget() {
